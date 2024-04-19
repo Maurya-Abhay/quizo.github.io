@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(AI-Models-Art.jpg);
+    background-color: #333;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 750px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+    color: #fff;
+    padding: 40px 35px 55px;
+    margin: 0 10px;
+
+}
+.container h1{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.input-box .input-field{
+    position: relative;
+    width: 48%;
+    margin: 13px 0;
+}
+.input-box .input-field input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 15px 15px 15px 40px;
+}
+.input-box .input-field input::placeholder{
+    color: #fff;
+}
+.input-box .input-field i{
+    position: absolute;
+    left: 18px;
+    top: 30%;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+.container label{
+    display: inline-block;
+    font-size: 14.5px;
+    margin-right: 10px 0 23px;
+    margin-bottom: 10px;
+}
+.container label input{
+    accent-color: #fff;
+    margin-right: 5px;
+}
+.container .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.container p{
+    margin-top: 15px;
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+.container p a{
+    color: rgb(255, 153, 0);
+}
+.adminh{
+    background: #333;
+    color: #fff;
+    height: 45px;
+    font-size: 100%;
+    border-radius: 4px;
+    width: 47%;
+    margin: 5px 10px 10px 5px;
+    border: 2px solid ;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, .2);
+    /* backdrop-filter: blur(50px); */
+ }
+ .adminh option{
+    background-color: #333;
+ }
+@media (max-width: 550px) {
+    .input-box .input-field{
+        width: 100%;
+        margin: 10px 0;
+    }
+}

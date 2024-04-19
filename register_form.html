@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>register form</title>
+   <link rel="stylesheet" href="css/register.css">
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+<div class="container">
+<form action="" method="post">
+            <h1>Register Now</h1>
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Name" required name="name">
+                    <i class='bx bxs-user'></i>
+                </div>
+            
+                <div class="input-field">
+                    <input type="text" placeholder="Email" required name="email">
+                    <i class='bx bxs-user'></i>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="password" placeholder="Password" required name="password">
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <div class="input-field">
+                    <input type="password" placeholder="Conform Password" required name="cpassword">
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+            </div>
+
+            <select class="adminh" name="user_type">
+          <option value="user">User</option>
+         <option value="admin">Admin</option>
+         </select>
+         <select class="adminh" name="gender">
+          <option value="user">Male</option>
+         <option value="admin">Female</option>
+         </select>
+            <button type="submit" class="btn" name="submit">Register</button>
+            <p>Already have an account? <a href="login_form.html">login now</a></p>
+        </form>
+    </div>
+</body>
+</html>
